@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto", Sans-Serif;
+}
+div{
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+}
+div input{
+  padding: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+div button {
+  padding: 0 5px;
+  outline: none;
+}
+#output{
+  margin-top: 50px;
+  font-size: 20px;
+}
